@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://zillingworth.github.io/zo-test/testing/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Testing" ] },
+    "items": [
+      {
+        "id": "https://zillingworth.github.io/zo-test/testing/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 804.0,
+        "items": [
+          {
+            "id": "https://zillingworth.github.io/zo-test/testing/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://zillingworth.github.io/zo-test/testing/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia802801.us.archive.org/26/items/destination-earth-1956/destination-earth-1956-10mbps.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 804.0
+                },
+                "target": "https://zillingworth.github.io/zo-test/testing/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
